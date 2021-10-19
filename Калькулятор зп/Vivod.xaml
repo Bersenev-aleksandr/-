@@ -1,0 +1,21 @@
+﻿<Window x:Class="Калькулятор_зп.Vivod"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Калькулятор_зп"
+        mc:Ignorable="d"
+        Title="Vivod" Height="309" Width="552">
+    <Grid>
+        <Label Content="Полная зп" HorizontalAlignment="Left" Margin="59,65,0,0" VerticalAlignment="Top" Height="34" Width="70"/>
+        <Label Content="НДФЛ" HorizontalAlignment="Left" Margin="68,124,0,0" VerticalAlignment="Top"/>
+        <Label Content="ЗП на руки" HorizontalAlignment="Left" Margin="59,182,0,0" VerticalAlignment="Top"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="146,65,0,0" VerticalAlignment="Top"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="146,124,0,0" VerticalAlignment="Top"/>
+        <Label Content="=" HorizontalAlignment="Left" Margin="146,182,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_fullzp" Content="" HorizontalAlignment="Left" Margin="180,65,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_NDFL" Content="" HorizontalAlignment="Left" Margin="180,124,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_Zpruk" Content="" HorizontalAlignment="Left" Margin="180,182,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
